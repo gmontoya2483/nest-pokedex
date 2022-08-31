@@ -39,3 +39,10 @@
 * MongoDB
 * Nest
 * Express
+
+## Notas
+Heroku redeploy sin cambios:
+```
+git commit --allow-empty -m "Trigger Heroku deploy"
+git push heroku <main | main>
+```
