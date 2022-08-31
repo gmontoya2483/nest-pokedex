@@ -40,6 +40,22 @@
 * Nest
 * Express
 
+
+## Production Build
+1. crear el archivo ```.env.prod```
+2. llenar las variables de entorno para producción
+3. Crear la nueva imagen
+
+   ```
+   docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+   ```
+
+## Ejecutar Prod:
+   ```
+   docker-compose -f docker-compose.prod.yaml --env-file .env.prod up
+   ```
+
+
 ## Notas
 Heroku redeploy sin cambios:
 ```
